@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.middle {
+  width: 100%;
+  height: 100vh;
+  font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#part1 {
+  background-color: pink;
+}
+
+#part2 {
+  background-color: blue;
+}
+
+#part3 {
+  background: gray;
+}
+/*# sourceMappingURL=style.css.map */
